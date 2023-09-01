@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivinanza de Colores</title>
+    <link rel="stylesheet" type="text/css" href="../juego/styles.css">
+</head>
+<body>
+  <body>
+    <header>
+        <h1>Bienvenido al portal de la comunidad Guarani de las yungas</h1>
+        <h2>Índice de Contenido</h2>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../enlaces/historia.html">Historia del pueblo Guarani</a></li>
+                <li><a href="../enlaces/alfabeto.html">Alfabeto</a></li>
+                <li><a href="index.html">Juegos</a></li>
+                <li><a href="../enlaces/ateneo.html">Ateneo de la Lengua y Cultura Guarani</a></li>
+                <li><a href="../enlaces/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="contenedor-juego">
+        <h1>Juego de Adivinanza de Colores</h1>
+        <div id="imagen-container">
+            <img id="color-image" src="" alt="Color">
+        </div>
+        <div id="botones-container">
+            <button class="boton-color" data-color="amarillo">Amarillo</button>
+            <button class="boton-color" data-color="anaranjado">Anaranjado</button>
+            <button class="boton-color" data-color="azul">Azul</button>
+            <button class="boton-color" data-color="blanco">Blanco</button>
+            <button class="boton-color" data-color="celeste">Celeste</button>
+            <button class="boton-color" data-color="negro">Negro</button>
+            <button class="boton-color" data-color="rojo">Rojo</button>
+            <button class="boton-color" data-color="verde">Verde</button>
+        </div>
+        <p>Correctos: <span id="contador-correctos">0</span></p>
+    </div>
+
+    <div id="contenedor-carrusel">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./colores/amarillo.png" class="d-block w-100" alt="Amarillo">
+                </div>
+                <div class="carousel-item">
+                    <img src="./colores/anaranjado.png" class="d-block w-100" alt="Anaranjado">
+                </div>
+                <div class="carousel-item">
+                    <img src="./colores/azul.png" class="d-block w-100" alt="Azul">
+                </div>
+                <section id="carouselExample" class="carousel slide"><div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./colores/amarillo.png" class="d-block w-100" alt="slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./colores/anaranjado.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./colores/azul.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./colores/blanco.png" class="d-block w-100" alt="...">
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./colores/celeste.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+            <img src="./colores/negro.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+               <img src="./colores/rojo.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+               <img src="./colores/verde.png" class="d-block w-100" alt="...">
+              </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="../juego/script.js"></script>
+</body>
+</html>

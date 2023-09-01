@@ -1,0 +1,64 @@
+/* styles.css */
+
+header {
+    background-color: #b93434;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor-juego {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#imagen-container {
+    margin: 20px;
+}
+
+#color-image {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #000; /* Borde para destacar la imagen */
+}
+
+#botones-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.boton-color {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#contenedor-carrusel {
+    margin-top: 20px;
+}
